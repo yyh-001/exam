@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		}
+	    ,{
+            "path" : "pages/exam/exam",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/preview/preview",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/sran/sran",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/sran_exam/sran_exam",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/test_score/test_score",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/test_error/test_error",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/preview/preview_jump/preview_jump",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/order_jump/order_jump",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/sran_exam/sran_jump/sran_jump",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/test_error/test_jump/test_jump",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/test/test_jump/test_jump",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "exam",
+		"navigationStyle":"custom",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor":"#F8F8F8"
+	}
+	        
+}
